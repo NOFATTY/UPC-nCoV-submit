@@ -3,7 +3,7 @@ name: ncov_submit
 on:
   push :
   schedule :
-    - cron : '00 19 * * *'
+    - cron : '13,37 23 * * *'
   workflow_dispatch:
 
 jobs:
